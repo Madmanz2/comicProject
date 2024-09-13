@@ -14,10 +14,16 @@ public class Panel1 extends JPanel {
 		
 		super.paintComponent(g);
 		
+		g.setColor(new Color(238,207,180));
+		//g.drawOval(250, 100, 50, 50);
+		g.fillOval(275, 100, 100, 100);
+		
+		//sets new font
 		g.setColor(Color.black);
-		g.drawOval(250, 100, 50, 50);
-		g.drawString("Panel1", 30, 30);
-		g.drawLine(275, 150, 275, 200);
+		Font f = new Font("Helvetica", Font.PLAIN, 35);
+		g.setFont(f);
+		g.drawString("Arives at Emergency Room", 75, 40);
+		g.drawLine(325, 150, 325, 350);
 	}
 	
 	

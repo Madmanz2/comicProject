@@ -14,9 +14,10 @@ public class Panel2 extends JPanel {
 		
 		super.paintComponent(g);
 		
-		g.setColor(Color.cyan);
+		g.setColor(Color.black);
 		g.drawOval(200, 200, 50, 50);
-		g.drawString("Panel1", 30, 30);
+		g.drawString("Where is my wife??", 30, 30);
+		g.drawString("She is in the room over there", 100, 50);
 		
 	}
 	

@@ -16,7 +16,7 @@ public class Panel6 extends JPanel {
 		
 		g.setColor(Color.green);
 		g.drawOval(200, 200, 50, 50);
-		g.drawString("Panel6", 30, 30);
+		g.drawString("Man turns into a horse and says Dang I am thirsty", 30, 30);
 		
 	}
 	

@@ -16,7 +16,7 @@ public class Panel4 extends JPanel {
 		
 		g.setColor(Color.cyan);
 		g.drawOval(200, 200, 50, 50);
-		g.drawString("Panel4", 30, 30);
+		g.drawString("wife :(", 30, 30);
 		
 	}
 	

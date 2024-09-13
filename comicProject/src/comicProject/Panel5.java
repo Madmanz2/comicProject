@@ -16,7 +16,7 @@ public class Panel5 extends JPanel {
 		
 		g.setColor(Color.green);
 		g.drawOval(200, 200, 50, 50);
-		g.drawString("Panel5", 30, 30);
+		g.drawString("man takes his daily medication", 30, 30);
 		
 	}
 	
