@@ -10,14 +10,14 @@ public class Panel1 extends JPanel {
 		
 	}
 
-	public void paintComponet(Graphics g) {
+	public void paintComponent(Graphics g) {
 		
 		super.paintComponent(g);
 		
 		g.setColor(Color.black);
-		g.drawOval(200, 200, 50, 50);
+		g.drawOval(250, 100, 50, 50);
 		g.drawString("Panel1", 30, 30);
-		
+		g.drawLine(275, 150, 275, 200);
 	}
 	
 	

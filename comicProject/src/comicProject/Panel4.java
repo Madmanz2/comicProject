@@ -10,7 +10,7 @@ public class Panel4 extends JPanel {
 		
 	}
 
-	public void paintComponet(Graphics g) {
+	public void paintComponent(Graphics g) {
 		
 		super.paintComponent(g);
 		
