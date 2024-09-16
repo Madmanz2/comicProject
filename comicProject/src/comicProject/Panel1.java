@@ -29,11 +29,13 @@ public class Panel1 extends JPanel {
 		g.drawLine(325, 225, 350, 250);
 		g.drawLine(325, 225, 275, 200);
 		g.setColor(new Color(0,0,0));
+		g.fillOval(350, 125, 10, 10);
+		g.fillOval(325, 125, 10, 10);
+		
+		//doors 
 		g.drawLine(200, 500, 200, 50);
 		g.drawLine(500, 500, 500, 50);
 		g.drawLine(200, 50, 500, 50);
-		g.fillOval(350, 125, 10, 10);
-		g.fillOval(325, 125, 10, 10);
 	}
 	
 	

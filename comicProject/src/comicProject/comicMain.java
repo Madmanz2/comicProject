@@ -11,14 +11,15 @@ public class comicMain {
 		//comment
 		JFrame maddox = new JFrame();
 		maddox.setTitle("Loss Comic Extened");
+		maddox.setSize(1200,900);
 		//Screen Size
-		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		//Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		
-		int height = screenSize.height;
-		int width = screenSize.width;
+		//int height = screenSize.height;
+		//int width = screenSize.width;
 		
-		maddox.setPreferredSize(new Dimension(width,height));
-		maddox.pack();
+		//maddox.setPreferredSize(new Dimension(width,height));
+		//maddox.pack();
 		maddox.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		Panel1 p1 = new Panel1(new Color(100,100,100));
