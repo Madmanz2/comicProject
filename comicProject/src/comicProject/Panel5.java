@@ -16,7 +16,7 @@ public class Panel5 extends JPanel {
 		
 		g.setColor(Color.black);
 		
-		g.drawString("Man takes his medication", 30, 50);
+		g.drawString("*Takes his medication*", 50, 100);
 		
 		
 		//main character
