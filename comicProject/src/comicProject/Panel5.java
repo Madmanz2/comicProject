@@ -18,6 +18,8 @@ public class Panel5 extends JPanel {
 		g.drawOval(200, 200, 50, 50);
 		g.drawString("man takes his daily medication", 30, 30);
 		
+		
+		
 	}
 	
 	
