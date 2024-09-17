@@ -14,9 +14,27 @@ public class Panel5 extends JPanel {
 		
 		super.paintComponent(g);
 		
-		g.setColor(Color.green);
-		g.drawOval(200, 200, 50, 50);
-		g.drawString("man takes his daily medication", 30, 30);
+		g.setColor(Color.black);
+		
+		g.drawString("Man takes his medication", 30, 50);
+		
+		
+		//main character
+				g.setColor(new Color(238,207,180));
+				g.fillOval(200, 100, 100, 100);
+				g.setColor(Color.blue);
+				g.drawLine(250, 200, 250, 350);
+				g.setColor(new Color(238,207,180));
+				g.drawLine(250, 225, 275, 200);
+				g.drawLine(250, 225, 230, 250);
+				g.setColor(new Color(0,0,0));
+				
+				g.fillOval(275, 125, 10, 10);
+				g.fillOval(250, 125, 10, 10);
+				
+		//med
+				g.setColor(Color.white);
+				g.fillOval(275, 200, 5, 5);
 		
 		
 		

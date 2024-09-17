@@ -42,6 +42,8 @@ public class Panel4 extends JPanel {
 				g.fillOval(525, 200, 10, 10);
 				g.setColor(Color.pink);
 				g.drawLine(375, 200, 475, 200);
+				g.setColor(Color.black);
+				g.fillOval(550, 150, 30, 200);
 				
 				
 				
